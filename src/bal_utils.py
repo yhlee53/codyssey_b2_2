@@ -1,14 +1,14 @@
-"""함선우(bal) 유틸 예시
-"""
+"""함선우(bal) 뺄셈 계산기 유틸"""
 
-def add(a: int, b: int) -> int:
-    """두 수의 합을 반환하는 간단한 유틸 함수
 
-    >>> add(2, 3)
-    5
+def subtract(a: float, b: float) -> float:
+    """두 수의 차를 반환한다.
+
+    >>> subtract(5, 3)
+    2.0
     """
-    return a + b
+    return a - b
 
 
 if __name__ == '__main__':
-    print(add(2, 3))
+    print(subtract(5, 3))

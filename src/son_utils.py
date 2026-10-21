@@ -1,14 +1,14 @@
-"""손희진(son) 유틸 예시
-"""
+"""손희진(son) 곱셈 계산기 유틸"""
 
-def to_upper(s: str) -> str:
-    """문자열을 대문자로 변환
 
-    >>> to_upper('abc')
-    'ABC'
+def multiply(a: float, b: float) -> float:
+    """두 수의 곱을 반환한다.
+
+    >>> multiply(3, 4)
+    12.0
     """
-    return s.upper()
+    return a * b
 
 
 if __name__ == '__main__':
-    print(to_upper('son'))
+    print(multiply(3, 4))

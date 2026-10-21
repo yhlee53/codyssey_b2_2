@@ -2,12 +2,12 @@
 
 ## 브랜치 전략 (GitHub Flow)
 - `main` — 항상 배포 가능한 상태
-- `feature/*` — 작업 단위 브랜치
+- `*`    — 작업 단위 브랜치 (bal, son, thin, yrei, yhlee)
 
 우리 팀이 GitHub Flow를 선택한 이유(3줄 이내): 
 
 ## 브랜치 네이밍 규칙
-- 예: `feature/<name>-<topic>`
+- 예: `<topic>`
 
 ## 커밋 메시지 컨벤션
 - 형식 예: `feat: subject`, `fix: subject`, `docs: subject`, `refactor: subject`

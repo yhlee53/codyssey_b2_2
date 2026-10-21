@@ -1,14 +1,14 @@
-"""이경희(thin) 유틸 예시
-"""
+"""이경희(thin) 덧셈 계산기 유틸"""
 
-def greet(name: str) -> str:
-    """간단한 인사 문자열 반환 예시
 
-    >>> greet('Park')
-    'Hello, Park'
+def add(a: float, b: float) -> float:
+    """두 수의 합을 반환한다.
+
+    >>> add(2, 3)
+    5.0
     """
-    return f"Hello, {name}"
+    return a + b
 
 
 if __name__ == '__main__':
-    print(greet('thin'))
+    print(add(2, 3))

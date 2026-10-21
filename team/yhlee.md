@@ -4,7 +4,7 @@
 - GitHub ID: yhlee
 - 역할: 개발 리드 / PR 관리
 - 기여 예정 항목:
-  - `src/yhlee_utils.py`에 핵심 유틸 작성
+  - `src/main.py`에 핵심 유틸 작성
   - `SUBMISSION.md`와 PR 인덱스 정리
 
 ## 간단 소개
