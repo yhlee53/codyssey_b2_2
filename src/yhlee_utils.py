@@ -12,7 +12,7 @@ def calculate(a: float, b: float, operator: str) -> float:
         '+': add,
         '-': subtract,
         '*': multiply,
-        '%': modulo,
+        '/': modulo,
     }
 
     if operator not in operations:
@@ -25,4 +25,4 @@ if __name__ == '__main__':
     print(calculate(10, 3, '+'))
     print(calculate(10, 3, '-'))
     print(calculate(10, 3, '*'))
-    print(calculate(10, 3, '%'))
+    print(calculate(10, 3, '/'))
